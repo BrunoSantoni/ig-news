@@ -135,10 +135,10 @@
   resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.13.2.tgz#bb2f561085b5dd091355df871d432b8e1fd467f6"
   integrity sha512-fycUk7ECukNc31lD5apcrUgdRC1BfiIacs+CpacoCjOgo3ablolnWCvDQWMmVWtODYa8bBv2dlBla+Edc5OvZg==
 
-"@types/next-auth@^3.7.3":
-  version "3.7.3"
-  resolved "https://registry.yarnpkg.com/@types/next-auth/-/next-auth-3.7.3.tgz#e5b2ea62d90ea89797c4570d77074c558b5a6484"
-  integrity sha512-CS9kJz8mIzpeAJDr2haimuCzYysH/4mi+4hn1yzMf4sncCs2pey0G7eAGxOL7Is1p3dH3h3RSukBPTCbSx+X9A==
+"@types/next-auth@3.7.1":
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/@types/next-auth/-/next-auth-3.7.1.tgz#9f3d7d79e2dd06fc0ddbce2ab732ee8ec12b6be9"
+  integrity sha512-HV3i87HLwt/nO6wSy6ainAYyzBxeEITOwaq8TZevaFG2Ix7eleAgL0ae7gAEa4SW4Ms+2rxv7eIZtk/CIpMapg==
   dependencies:
     "@types/node" "*"
     "@types/react" "*"

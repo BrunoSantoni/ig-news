@@ -16,10 +16,6 @@ type PostProps = {
   }
 };
 
-type SessionWithSubscription = Session & {
-  activeSubscription?: string;
-};
-
 export default function Post({ post }: PostProps) {
   return(
     <>
@@ -41,7 +37,7 @@ export default function Post({ post }: PostProps) {
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ req, params }) => {
-  const session: SessionWithSubscription = await getSession({ req });
+  const session = await getSession({ req });
   const { slug } = params;
 
   if(!session?.activeSubscription) {

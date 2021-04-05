@@ -1,5 +1,4 @@
 import { GetStaticPaths, GetStaticProps } from "next";
-import { Session } from "next-auth";
 import { useSession } from "next-auth/client";
 import { useRouter } from "next/dist/client/router";
 import Head from "next/head";
@@ -17,10 +16,6 @@ type PostPreviewProps = {
     content: string;
     updatedAt: string;
   }
-};
-
-type SessionWithSubscription = Session & {
-  activeSubscription?: string;
 };
 
 export default function PostPreview({ post }: PostPreviewProps) {
